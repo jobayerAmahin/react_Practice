@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to LocalStorage</h1>
+    <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs border-black" id="product"/>
+    <input type="text" placeholder="QUANTITY" name="" class="input border-2 border-black" id="quantity" />
+    <button class="btn" id="clkBtn" onclick="getDataFromInputs()"> Click to find Product</button>
+
+    <div>
+        <ul id="listSec">
+
+        </ul>
+    </div>
+    <script src="./cart.js"></script>
+</body>
+</html>
